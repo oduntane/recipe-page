@@ -1,4 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    width: 100vh;
+    width: 100vw;
     font-size: 16px;
+}
+
+img {
+    width: 100%;
+}
+
+.section, .head  > * + * {
+    width: 85%;
+    margin: auto;
+}
+
+hr {
+    width: 85%;
+    margin: auto;
+}
+
+.head, .section {
+    font-family: "Outfit", sans-serif;
+}
+
+.head > h1, .section > h2 {
+    font-family: "Young Serif", serif;
+}
+
+.head > h1 {
+    margin-block: 1.5rem;
+}
+
+.head > :nth-child(3) {
+    margin-block-end: 1.3rem;
+}
+
+.head > :last-child {
+    padding: 1.3rem;
+    background-color: hsl(330, 100%, 98%);
+    margin-block: 1.3rem;
+}
+
+.head ::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.head ul {
+    width: 95%;
+    margin: auto;
+}
+
+li {
+    padding: 0.3rem;
+}
+
+.section {
+    margin-block: 1.3rem;
+}
+
+.section > h2, .section ::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+
+.section > * {
+    margin-block: 1.3rem;
+}
+
+table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+tr {
+    border-block-end: 1px solid grey;
+}
+
+tr:last-child {
+    border-block-end: none;
+}
+
+td {
+    padding-block: 0.5rem;
+}
+
+
+td:nth-child(2) {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
 }

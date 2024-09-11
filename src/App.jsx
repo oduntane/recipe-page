@@ -17,6 +17,7 @@ export default function App() {
                     </li>
                 </ul>
             </Section>
+            <hr />
             <Section title="Instructions">
                 <ol>
                     <li><strong>Beat the eggs</strong>: In a bowl, beat the
@@ -55,6 +56,7 @@ export default function App() {
                     </li>
                 </ol>
             </Section>
+            <hr />
             <Section title="Nutrition">
                 <p>
                     The table below shows nutritional values
