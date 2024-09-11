@@ -97,3 +97,22 @@ td:nth-child(2) {
     font-weight: bold;
     color: hsl(14, 45%, 36%);
 }
+
+@media (min-width: 376px) {
+
+    .container {
+        padding: 1.2rem;
+        width: 50%;
+        margin: auto;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1.2rem;
+    }
+
+    img {
+        border-radius: 1rem;
+    }
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+}
